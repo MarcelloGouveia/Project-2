@@ -1,0 +1,190 @@
+body {
+    background-color: #999997
+}
+
+h1 {
+    text-align: center;
+    font-family: 'frutigerregular', georgia;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+}
+
+p1 {
+    color: #000000;
+    text-align: center;
+    font-family: 'frutigerregular', georgia;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5rem;
+    margin: 0 auto 0 auto;
+    font-size: 20px;
+}
+p2 {
+    color: #ff0000;
+    text-align: center;
+    font-family: 'frutigerregular', georgia;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5rem;
+    margin: 0 auto 0 auto;
+    font-size: 20px;
+}
+p3 {
+    color: #00ff0d;
+    text-align: center;
+    font-family: 'frutigerregular', georgia;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5rem;
+    margin: 0 auto 0 auto;
+    font-size: 20px;
+}
+p4 {
+    color: #0011ff;
+    text-align: center;
+    font-family: 'frutigerregular', georgia;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5rem;
+    margin: 0 auto 0 auto;
+    font-size: 20px;
+}
+p5 {
+    color: #000000;
+    text-align: center;
+    font-family: 'frutigerregular', georgia;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5rem;
+    margin: 0 auto 0 auto;
+    font-size: 50px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30%;
+    max-height: auto;
+}
+
+
+@font-face {
+    font-family: 'frutigerregular';
+    src: url('frutiger-webfont.woff2') format('woff2'),
+         url('frutiger-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media screen and (min-width: 601px) {
+    p {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 75%;
+    }
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container2 {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
+width: 500px;
+}
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    background-color: rgb(255, 153, 0);
+}
+.container4 {
+text-align: center;
+align-items: center;
+justify-content: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+max-width: 30%;
+max-height: auto;
+background-color: rgb(255, 153, 0);
+}
+
+.buttoncontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.buttoncontainer2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.prevbuttoncontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.logo {
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.search {
+margin-left: auto;
+margin-right: auto;
+width: 8em;
+background-color: rgba(255, 255, 255, 0.349);
+width: 300px;
+}
+
+.button {
+    margin-left: 15px;
+    background-color: #3cff00;
+    cursor: pointer;
+    border: none;
+    color: #D5D2D2;
+    border-radius: 15px 15px;
+    padding: 12px 28px;
+    font-size: 24px;
+}
+
+.button2 {
+    margin-left: 15px;
+    background-color: #ff0000;
+    cursor: pointer;
+    border: none;
+    color: #D5D2D2;
+    border-radius: 15px 15px;
+    padding: 12px 28px;
+    font-size: 24px;
+}
+.button3 {
+    margin-left: 15px;
+    background-color: #ffd000;
+    cursor: pointer;
+    border: none;
+    color: #D5D2D2;
+    border-radius: 15px 15px;
+    padding: 12px 28px;
+    font-size: 24px;
+}
